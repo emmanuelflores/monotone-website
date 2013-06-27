@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="libs/jq.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<link rel="Stylesheet" type="text/css" href="libs/xo.css" />
+
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+	<script type="text/javascript" src="js/mnt-navigation.js"></script>
+	
+
+	<link rel="Stylesheet" type="text/css" href="css/mnt-index.css" />
+	<link rel="Stylesheet" type="text/css" href="css/media-queries.css" />
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/modernizr-2.5.3.min.js"></script>
+
+	<!--Gallery-->
+	<script src="js/gi1-functions.js"></script>
+
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-34546066-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
+
+</head>
+
+<body class="background">
+
+	<div class="container">
+
+		<div id="index" class="leaguegothic white page">
+			<div id="titlebox" class="f2 lghtgrey">
+				<div class="f5 white">Monotone</div>
+				Simple.
+				Clean.
+				Playful.
+			</div>
+		</div>
+
+<!-- 		<div id="what" class="leaguegothic white page f2">
+
+			<div class="w960 center" style="margin-top:50px;">
+
+				<div class="right"><img src="assets/monotone-icon.png" style="width:200px;"><br><span class="Sniglet f1">This is our logo.</span></div>
+
+				<br></br>
+				<h1>We are testing monotone</h1>
+				<br></br>
+
+				<br "This is simple, right?"></br>
+				Contact: <span style="color:#000000">info@monotonestudio.nl</span>
+			</div>
+		</div> -->
+		<div id="what" class="leaguegothic white page f2">
+
+			<div class="w960 center" style="margin-top:50px;">
+
+				<div class="right"><img src="assets/monotone-icon.png" style="width:200px;"><br><span class="Sniglet f1">this is our logo</span></div>
+				<h1>We are testing monotone</h1>
+
+				This is simple, right? <br> <br>
+				Contact: <span style="color:#000000">info@monotonestudio.nl</span>
+			</div>
+		</div>
+
+
+
+
+		<div id="is" class="leaguegothic white page">
+			<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">Monotone</div></a>
+
+			<div class="f0 center w750 pad">
+
+				<div class="f3">What do you want here?</div>
+
+				<div id="fromLast" class="clickable f1">Hello there</div>
+				<div id="fromCurrent" class="clickable f1">Please put things here</div>
+			</div>
+		</div>
+
+
+
+		<!--THIS IS THE GALLERY, take care that the material will be scaled accordingly-->
+
+		<div id="godown" class="leaguegothic white page">
+			<div id="titlebox" class="f1 lghtgrey">
+				<div class="f0 white">down.</div>
+				very.
+				much.
+			</div>
+			<div id="contain">
+
+				<section id="workThumbs" class="cols" style="overflow: auto">
+
+					<a id="galleryItem1" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+					
+					<script>
+					$("#galleryItem1").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+					</script>
+
+					<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
+
+					<a id="galleryItem2" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+
+					<script>
+					$("#galleryItem2").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+					</script>
+
+					<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
+
+					<a id="galleryItem3" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+
+					<div style="clear:left;height:1%;margin: 11%;">
+					</div>
+
+					<script>
+					$("#galleryItem3").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+					</script>
+
+
+					<a id="galleryItem4" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+
+					<script>
+					$("#galleryItem4").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+					</script>
+
+					<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
+
+					<a id="galleryItem5" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+
+					<script>
+					$("#galleryItem5").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+					</script>
+
+				</section>
+
+			</div>
+
+
+			<!-- ///////////////////////////// -->
+		</div>
+
+<!-- 
+			<div id="godown" class="leaguegothic white page">
+				<a class="noanchor" href="https://github.com/emmanuelflores"><div id="logo" class="f2">OHH</div></a>
+
+				<div class="f0 center w750 pad">
+
+					<div class="f3">Projects</div>
+
+					<div id="fromLast" class="clickable f1">Returns you to the last page you were on</div>
+					<div id="fromCurrent" class="clickable f1">Alert from the current page</div>
+					<div id="fromRight" class="clickable f1">From the right slow</div>
+					<div id="fromTop" class="clickable f1">From the top with linear easing</div>
+					<div id="fromLeft" class="clickable f1">From the left with increased parallax</div>
+					<div id="fromBottom" class="clickable f1">From the bottom with an onload function</div>
+
+
+					<div id="titlebox" class="f1 lghtgrey" style="{cursor:pointer;}">
+						<div class="f0 white">down.</div>
+						very.
+						much.
+					</div>
+					
+					<button type="button" id="testButton">click here</button>
+
+					<script>
+					$("#testButton").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+
+					</script>
+
+					<div id="contain">
+
+				<section id="workThumbs" class="cols" style="overflow: auto">
+
+					<a id="testA" class="item">
+						<span class="thumb" style="background-image:url('thumb_mediasilo.png');">
+							<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+							<div class="over" style=" " data-bg="thumb_mediasilo.png"></div>
+						</span>
+					</a>
+				</section>
+			</div>
+
+					<script>
+					$("#testA").click(function(){
+						//console.log("hello");
+
+						parallax.gi1.bottom();
+
+					})
+
+					</script>
+
+
+
+				</div>
+
+			</div> -->
+
+			<div id="who" class="leaguegothic white page">
+				<a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2 left">Monotone is about...</div></a>
+
+
+			</div>
+
+			<!--psuh gallery pages-->
+
+			<div id="boo" class="leaguegothic white page clickable">
+				<div class="center w400 " style="margin-top:20%;">
+					<div class="lh0" style="font-size:300px;">BOO!</div>
+					<div style="font-size:47px">Click anywhere to head back.</div>
+				</div>
+			</div>
+
+
+
+			<div id="gi1" class="leaguegothic white page clickable">
+				<div class="center w400 " style="margin-top:20%;">
+					<div class="lh0" style="font-size:200px;">Monotone!</div>
+					<div style="font-size:47px">This is a gallery page</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<!-- REMOVE THESE ARROWS, THE ARE FAR TOO BIG -->
+		<div id="leftControl" class="control">
+			<img id="leftArrow" class="arrow left" style="width:60px" src="assets/arrowleft2.png"></img>
+			<div id="leftText" class="dirText" style="float:right"> Test</div>
+		</div>
+
+		<div id="rightControl" class="control">
+			<img id="rightArrow" class="arrow right" style="width:60px" src="assets/arrowright2.png"></img>
+			<div id="rightText" class="dirText" style="float:left"> Test</div>
+		</div>
+
+		<div id="topControl" class="control center" style="width:145px;left:45%;">
+			<img id="topArrow" class="arrow left" style="height:60px" src="assets/arrowtop2.png"></img>
+			<div id="topText" class="dirText txtcenter" > Test</div>
+		</div>
+
+		<div id="bottomControl" class="control center" style="width:145px;left:45%;bottom:0px;">
+			<div id="bottomText" class="dirText txtcenter"> Test</div>
+			<img id="bottomArrow" class="arrow left" style="height:60px" src="assets/arrowbottom2.png"></img>
+
+		</div>
+
+		<!-- JavaScript at the bottom for fast page loading -->
+		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="http://www.harlointeractive.com/assets/js/libs/jquery_min.js"><\/script>')</script>
+		<!-- scripts concatenated and minified via build script -->
+		<script src="js/plugins.js"></script>
+		<script src="js/script.js"></script>
+		<!-- end scripts -->
+
+	</body>
+	</html>

@@ -1,0 +1,852 @@
+@media screen and (max-width: 1330px) {
+	#footer {
+		width: 400px;
+		margin: 80px 0 0 -200px;
+		left: 50%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.main_eng, .main_ita {
+		width: 60%;
+		float: left;
+	}
+	.main_ita {
+		margin-bottom: 140px;
+	}
+	.pubblications{
+		right: 0;
+		float: right;
+		left: auto;
+	}
+}
+
+@media screen and (max-width: 1270px) {
+	.contacts_abs.cleft, .contacts_abs.cright {
+		position: relative !important;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.box_links {
+		width: 30% !important;
+	}
+	.box_links.fourth {
+		margin-left: 6%;
+		width: 35% !important;
+	}
+	
+	.box_links.first {
+		width: 35% !important;
+	}
+	
+	.box_links.divisibleperthree {
+		width: 20% !important;
+		float: right;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.special_link {
+		display: block;
+	}
+	.titolo_progetto {
+		text-align: center;
+	}
+	
+	.inside_projects_image {
+		left: 5%;
+		width: 90%;
+		padding-top: 30px;
+	}
+	
+	.inside_project {
+		display: none;
+		left: 5%;
+		width: 80%;
+		background: #C4C4BA;
+		padding: 25px 5% 0 5%;
+		margin-top: 5px;
+	}
+	
+	.inside_project .footer_mobile {
+		left: 0;
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	.menu_right, .menu_left {
+		display: none;
+	}
+
+	#footer {
+		width: 90% !important;
+		margin: 50px 0px 0px 0px !important;
+		left: 5% !important;
+		padding: 30px 0;
+	}
+	
+	#footer p {
+		margin: 0;
+	}
+	
+	.second_index_header_mobile {
+		display: block;
+		height: 115px;
+		margin-bottom: 15px;
+	}
+	
+	.second_index_header_mobile h6 {
+		text-align: center;
+	}
+
+	.box_project {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		width: 32%;
+		margin-bottom: 30px;
+	}
+
+	.box_project_inside {
+		float: left;
+	}
+	
+	.box_project_inside img{
+		width: 100% !important;
+	}
+
+	.box_project_title {
+		display: block !important;
+		top: auto;
+		position: relative;
+		background: transparent;
+		width: auto;
+		margin: auto;
+		height: auto;
+		opacity: 1 !important;
+		float: left;
+	}
+	.box_project_title h6 {
+		text-align: left;
+		width: auto;
+		display: block;
+		vertical-align: auto;
+		margin-top: 15px;
+	}
+	.box_project_title .svant {
+		display: none !important;
+	}
+	.index_logo {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -32px !important;
+	}
+	/* first_box */
+	.incipit_eng, .incipit_ita {
+		left: 5%;
+	}
+	.incipit_eng {
+		top: 70%;
+		bottom: auto !important;
+	}
+	.incipit_ita {
+		top: 84%;
+		bottom: auto !important;
+	}
+	
+	/*projects*/
+	.container_projects {
+		width: 90% !important;
+		left: 5% !important;
+		padding-top: 50px;
+	}
+	
+	/* about */
+	#about_cont {
+		width: 90%;
+		left: 5%;
+		display: none;
+		background: #c4c4ba;
+		position: relative;
+		padding-top: 30px;
+		margin-top: 5px;
+	}
+	
+	.pubblications {
+		float: none;
+		width: 90%;
+		left: 5%;
+		display: none;
+		background: #c4c4ba;
+		position: relative;
+		padding-top: 30px;
+		margin-top: 5px !important;
+	}
+	
+	.links {
+		float: none;
+		width: 90%;
+		left: 5%;
+		display: none;
+		background: #c4c4ba;
+		position: relative;
+		padding-top: 30px;
+		margin-top: 5px;
+		color: #1f242d;
+	}
+
+	.box_links a {
+		color: #1f242d;
+	}
+	
+	.box_links, .box_links.first, .box_links.fourth {
+		width: 19% !important;
+		margin-left: 5% !important;
+		float: none !important;
+		display: inline-block;
+		padding: 0;
+	}
+	
+	.box_links.fifth {
+		margin-left: 54% !important;
+	}
+	
+	.contacts_box {
+		float: none;
+		width: 90%;
+		left: 5%;
+		display: none;
+		background: #c4c4ba;
+		position: relative;
+		padding-top: 30px;
+		margin-top: 5px;
+		color: #fff;
+		padding:0;
+	}
+	
+	.cleft .contacts_left {
+		margin-left: 10%;
+	}
+	
+	.cright .contacts_right {
+		margin-right: 10%;
+	}
+	
+	.background_info {
+		left: 4.5%;
+		width: 90.3%;
+		top: 10px;
+		bottom: auto;
+		border-bottom: solid 1px #918e79;
+		position: relative;
+		float: left;
+	}
+	
+	.half_contact.cleft.giudi {
+		position: absolute;
+		top: 10%;
+		left: 0;
+		height: auto;
+	}
+	
+	.half_contact.cright.augu {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		height: auto;
+	}
+	
+	.contacts_left.nome, .contacts_right.nome {
+		display: none;
+	}
+	
+	.fourth_index .hide_in_desktop .half_contact {
+		color: #1F242D !important;
+	}
+	
+	.background_info img{
+		position: relative;
+		width: 80%;
+		left: 10%;
+		height: auto;
+	}
+	
+	.content_pubblication {
+		vertical-align: top;
+		color: #1f242d;
+		left: 5%;
+		width: 45%;
+		display: inline-block;
+
+		position: relative;
+	}
+	
+	.point_pubblication, .point_pubblication_second {
+		position: relative;
+		width: 45%;
+		display: inline-block;
+		left: 5%;
+	}
+	
+	
+	.main_eng, .main_ita {
+		width: 45%;
+		float: none;
+		left: 5%;
+	}
+	
+	
+	.main_ita {
+		
+		margin-bottom: 30px;
+		margin-top: 70px;
+	}
+	
+	.pubblications {
+			display: none;
+	}
+	.links {
+		display: none;
+	}
+	
+	.second_index {
+		padding-bottom: 20px;
+	}
+	
+	.third_index {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+	.third_index_header_mobile {
+		display: block;
+		height: 63px;
+		margin-bottom: 15px;
+	}
+	
+	.header_mobile_logo {
+		position: relative;
+		left: 50%;
+		width: 20px;
+		margin-left: -10px;
+	}
+	
+	.menu_mobile_element {
+		display: block;
+		position: relative;
+		width: 90%;
+		left: 5%;
+		height: 40px;
+		margin-top: 15px;
+		background: #918e79;
+		text-align: center;
+	}
+	
+	.menu_mobile_element a, .menu_mobile_element a:hover{
+		text-decoration: none;
+	}
+	
+	.menu_mobile_element h6 {
+		color: #fff;
+		margin: 0;
+		padding: 15px 0 0 0;
+		
+	}
+	
+	
+	
+	.hide_in_tablet {
+		display: none;
+	}
+	
+	.hide_in_desktop {
+		display: block;
+	}
+	
+	.another_box_gray {
+		display: none;
+	}
+	
+	.footer_mobile {
+		width: 90%;
+		left: 5%;
+		border-top: solid 1px #918e79;
+		text-align: center;
+		position: relative;
+	}
+	
+	.footer_mobile img {
+		margin: 20px 0 15px 0;
+		width: 15px;
+		cursor: pointer;
+	}
+
+	.back_to_project {
+		height: 35px;
+		margin-top: 10px;
+		display: block;
+		position: relative;
+		width: 90%;
+		left: 5%;
+		border: 1px solid #918E79;
+		text-align: center;
+		margin-bottom: 20px;
+		cursor: pointer;
+	}
+
+	.back_to_project h6 {
+		padding: 12px 0 0 0;
+		margin: 0;
+		color: #918E79;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.in_eng, .in_ita {
+		position: absolute;
+		width: 90%;
+		left: 5%;
+	}
+	
+	.in_ita p, .in_eng p {
+		margin: 0;
+	}
+
+	.in_ita .text_container, .in_eng .text_container {
+		width: 80%;
+		float: left;
+	}
+	
+	.in_ita {
+		display: none;
+	}
+	
+	.project_first_column {
+		width: 70%;
+	}
+	
+	.project_third_column {
+		width: 100%;
+		margin-top: 20px;
+		padding-top: 15px;
+		border-top: solid 1px #918e79;
+	}
+	
+	.first_index {
+		height: 630px;
+	}
+	.intest_index {
+		width: 240px;
+		margin-left: -120px;
+		top: 24px !important;
+	}
+	
+	.index_logo {
+		top: 175px !important;
+		width: 15px;
+		margin-left: -7px;
+	}
+	
+	.incipit_eng, .incipit_ita {
+		top: 230px;
+		width: 90%;
+		height: 70px;
+		position: relative;
+		float: left;
+		
+	}
+	.incipit_ita {
+		margin-top: 20px;
+	}
+	
+	#box_gray {
+		top: 230px !important;
+		left: 30% !important;
+		width: 70% !important;
+		height: 180px !important;
+	}
+	
+	.box_verygray {
+		position: relative;
+		display: inline-block;
+		top: 280px;
+		width: 90%;
+		left: 5%;
+		height: 200px;
+		float: left;
+	}
+	
+	.box_project {
+		margin-bottom: 20px !important;
+	}
+	
+	.box_project.even {
+		width: 45% !important;
+		margin-left: 0% !important;
+	}
+	
+	.box_project.odd {
+		width: 45% !important;
+		margin-left: 7% !important;
+	}
+	
+	.content_pubblication {
+		width: 90%;
+	}
+
+	
+	
+	.point_pubblication_second {
+		display: none;
+	}
+	
+	.header_mobile_logo {
+		width: 14px;
+		margin-left: -7px;
+	}
+	
+	.second_index_header_mobile {
+		height: 75px;
+	}
+	
+	.second_index_header_mobile h6{
+		font-size: 0.9em;
+		margin-top: 10px;
+	}
+	
+	#about_cont {
+		height: 410px;
+	}
+	
+	.main_ita {
+		display: none;
+		width: 90%;
+		margin-top: 0;
+		position: absolute;
+		top: 20px;
+	}
+	
+	.main_eng {
+		top: 20px;
+		width: 90%;
+		position: absolute;
+	}
+	
+	#about_cont .footer_mobile {
+		position: absolute;
+		bottom: 0px;
+	}
+	
+	.menu_mobile_element {
+		height: 35px;
+		margin-top: 10px;
+	}
+	
+	.menu_mobile_element h6 {
+		padding: 12px 0 0 0;
+	}
+	
+	.lang_switcher {
+		width: 15%;
+		float: right;
+		cursor: pointer;
+	}
+	
+	.display_on_mobile {
+		display: block;
+	}
+	
+	.hide_in_mobile {
+		display: none;
+	}
+	
+	.box_links {
+		width: 40% !important;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.box_links.even {
+		margin-left: 10% !important;
+	}
+	
+	.box_links.odd {
+		margin-left: 5% !important;
+	}
+	
+	.box_links.full {
+		width: 90% !important;
+		text-align: center;
+		margin-left: 5% !important;
+		border-top: solid 1px #918e79;
+		border-bottom: solid 1px #918e79;
+		margin-bottom: 20px;
+	}
+	
+	.box_links.full p{
+		margin: 10px 0 6px 0;
+	}
+	
+	.other_links {
+		float: left;
+		width: 90%;
+		left: 5%;
+		display: none;
+		background: #C4C4BA;
+		position: relative;
+		padding-top: 30px;
+		margin-top: 5px;
+		color: #1F242D;
+	}
+	
+	.who_giuditta {
+		
+		position: relative;
+		left: 5%;
+		background: #C8C5BC;
+		width: 80%;
+		padding: 0 5% 5% 5%;
+		display: none;
+		color: white;
+		float: none;
+		z-index: 2;
+		margin-top: 5px;
+	}
+	
+	.who_giuditta .background{
+		position: relative;
+		left: 5%;
+		width: 90%;
+		top: 10px;
+		z-index: -1;	
+		border-bottom: solid 1px #918e79;
+		
+	}
+	
+	.who_giuditta .background img{
+		display: block;
+		width: 90%;
+		left: 5%;
+		position: relative;
+	}
+	.who_giuditta .text{
+		left: 15%;
+		width: 70%;
+		position: absolute;
+		top: 190px;
+	}
+	
+	.who_giuditta .other_text{
+		color: #1F242D;
+		margin-left: 11%;
+		margin-top: 30px;
+	}
+	
+	.who_augusto {
+		
+		position: relative;
+		left: 5%;
+		background: #C8C5BC;
+		width: 80%;
+		padding: 0 5% 0 5%;
+		display: none;
+		color: white;
+		float: none;
+		z-index: 2;
+		margin-top: 5px;
+	}
+	
+	.who_augusto .background{
+		border-bottom: solid 1px #918e79;
+		width: 90%;
+		left: 5%;
+		position: relative;
+	}
+	
+	.who_augusto .background img{
+		display: block;
+		
+	}
+	
+	.who_augusto .text{
+		left: 15%;
+		width: 70%;
+		position: absolute;
+		top: 190px;
+	}
+	
+	.who_augusto .other_text{
+		color: #1F242D;
+		margin-left: 11%;
+		margin-top: 30px;
+	}
+	
+	.hide_in_landscape {
+		display: none !important;
+	}
+	
+	.hide_in_portrait {
+		display: block !important;
+	}
+
+	
+	.box_gallery img {
+		margin-bottom: 10px !important;
+	}
+	#footer {
+		-webkit-text-size-adjust: none;
+		font-size: 12px;
+	}
+
+	#footer .nome_l {
+		width: 100%;
+		float: left;
+		border-right: none !important;
+		padding: 0 0 20px 0 !important;
+		
+	}
+	#footer .nome_r {
+		
+		padding: 0;
+		margin: 0 !important;
+	}
+	
+	
+
+	.footer_sep {
+		height: 25px;
+		width: 100%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+
+	.footer_sep span {
+		left: 50%;
+		display: block;
+		width: 30px;
+		border-top: solid 1px #CCC;
+		margin-left: -15px;
+		position: relative;
+	}
+	
+	.pubblications {
+		font-size: 0.6em !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.index_logo{
+		top: 230px !important;
+	}
+	
+	.intest_index {
+		top: 70px !important;
+	}
+	
+	.first_index {
+		height: 850px;
+	}
+	
+	.incipit_eng, .incipit_ita {
+		top: 500px;
+	}
+	
+	.incipit_ita {
+		width: 60% !important;
+		margin-left: 30% !important;
+		margin-top: 50px !important;
+	}
+	#box_gray {
+		top: 500px !important;
+	}
+	
+	.box_verygray {
+		top: 540px;
+		height: 125px;
+	}
+	
+	.header_mobile_logo {
+		width: 10px;
+		margin-left: -5px;
+	}
+	
+	.third_index_header_mobile {
+		height: 25px;
+	}
+	
+	
+	
+	.box_links.even, .box_links.odd {
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
+	
+	.second_index {
+		background: #d2d2c6;
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	
+	.container_projects {
+		padding-top: 10px;
+		
+	}
+	
+	.hide_in_landscape {
+		display: block !important;
+	}
+	
+	.hide_in_portrait {
+		display: none !important;
+	}
+	
+	.who_giuditta .text {
+		top: 120px;
+	}
+	
+	.who_augusto .text {
+		top: 100px;
+	}
+
+	.swipe_down {
+		top: 360px;
+		left: 50%;
+		position: absolute;
+		width: 70px;
+		margin-left: -35px;
+	}
+
+	#footer .nome_l {
+		width: 100%;
+		float: left;
+		border-right: none !important;
+		padding: 0 0 20px 0 !important;
+	}
+	#footer .nome_r {
+		padding: 0;
+		margin: 0 !important;
+	}
+
+	.footer_sep {
+		height: 25px;
+		width: 100%;
+		position: relative;
+		float: left;
+		text-align: center;
+	}
+
+	.footer_sep span {
+		left: 50%;
+		display: block;
+		width: 30px;
+		border-top: solid 1px #CCC;
+		margin-left: -15px;
+		position: relative;
+	}
+	.pubblications {
+		font-size: 1em !important;
+	}
+}

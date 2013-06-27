@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Simple Fade-in/Fade-out animation</title>
+    <style type="text/css">
+        /* Style for button */
+        #myBtn
+        {
+            width:80px;
+        }
+        
+        /* Style for image */
+        #myImg
+        {
+            -webkit-transition: opacity 0.5s ease-in;
+            -moz-transition: opacity 0.5s ease-in;
+            -o-transition: opacity 0.5s ease-in;
+        }
+        #myImg.fade-out
+        {
+            opacity:0;            
+        }
+        #myImg.fade-in
+        {
+            opacity:1;           
+        }
+        
+    </style>
+    <script type="text/javascript">
+        function fade(btnElement) {
+            console.log("fade");
+            if (btnElement.value === "Fade Out") {
+                document.getElementById("myImg").className = "fade-out";
+                btnElement.value = "Fade In";
+            }
+            else {
+                document.getElementById("myImg").className = "fade-in";
+                btnElement.value = "Fade Out";
+            }           
+        }
+    </script>
+</head>
+<body>   
+    <h3>Simple fade-in/fade-out example</h3> 
+    <input id="myBtn" type="button" value="Fade Out" onclick="fade(this);" />
+    <img id="myImg" src="images/Monotone-transparant-HUGE.png" />  
+</body>
+</html>
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

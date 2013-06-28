@@ -15,12 +15,12 @@ $(document).ready(function () {
 		}
 	});
 
-	parallax.add($("#who"))
-			.add($("#index"))
+	parallax.add($("#blog"))
+			.add($("#home"))
 			.add($("#boo"))
 			.add($("#is"))
-			.add($("#what"))
-			.add($("#godown"))
+			.add($("#about"))
+			.add($("#gallery"))
 			//gallery items, this needs to be optimized gi = gallery item
 			.add($("#gi1"));
 
@@ -34,29 +34,29 @@ $(document).ready(function () {
 
 
 	//Setting up page navigation
-	parallax.index.onload=function(){
-		setRight("who", "blog");
+	parallax.home.onload=function(){
+		setRight("blog", "blog");
 		setTop("is", "is it?");
-		setLeft("what","what do we do");
-		setBottom("godown","down here");
+		setLeft("about","about");
+		setBottom("gallery","projects");
 	};
 
 	parallax.is.onload=function(){
-		setBottom("index","monotone");
+		setBottom("home","monotone");
 	};
 
-	parallax.who.onload=function(){
-		setLeft("index", "monotone");
-		setRight("what", "what do we do");
+	parallax.blog.onload=function(){
+		setLeft("home", "monotone");
+		setRight("about", "about");
 	};
 
-	parallax.what.onload=function(){
-		setLeft("who", "who are we");
-		setRight("index","monotone");
+	parallax.about.onload=function(){
+		setLeft("blog", "who are we");
+		setRight("home","monotone");
 	};
 
-	parallax.godown.onload=function(){
-		setTop("index", "monotone");
+	parallax.gallery.onload=function(){
+		setTop("home", "monotone");
 	};
 
 
@@ -136,7 +136,7 @@ $(document).ready(function () {
 
 
 	$(".control").hide();
-	parallax.index.show();
+	parallax.home.show();
 
    $("#returnFromGallery").click(function(){
 		//clear away all the modifers
@@ -145,7 +145,7 @@ $(document).ready(function () {
 		parallax.scaling = 0.15;
 		parallax.boo.onload = function(){};
 		//Randomly picks a direction to head back too
-		parallax.sandbox.top();
+		parallax.gallery.top();
 	});
 
 });

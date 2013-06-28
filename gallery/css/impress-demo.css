@@ -68,8 +68,8 @@ table {
     border-spacing: 0;
 }
 
-/*#bodySonicPaintings */
-body {
+#bodySonicPaintings
+/*body*/ {
 /*     font-family: 'PT Sans', sans-serif; */
 
     min-height: 740px;

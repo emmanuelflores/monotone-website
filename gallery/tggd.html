@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Gallery 2</title>
+
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body>
+    <!--
+        I modified the original impress demo. Didn't start from scratch.
+    -->
+
+<div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+
+     <div id="one" class="step slide" data-x="-2000" data-y="-1500" data-rotate-x="10" data-rotate-y="-25">
+<!--
+     	<img src="img/sonicp_02_big.jpg" style="height: 25%;
+    width: 25%;left:-100px; top:0px;"></img>
+-->
+        <b style="font-size:10%;">TGGD+</b>
+    </div>
+
+
+    <div id="two" class="step slide" data-x="-1000" data-y="-1500" data-rotate-x="10" data-rotate-y="-25">
+        <!-- <b style="font-size:30%;">two</b> -->
+        <q>Thijs app</q>
+        <q>This is our first iPad app designer for dutch graphic designer Thijs, it was a lot of fun</q>
+        <q>Made for rock n' roll</q>
+    </div>
+
+    <div id="three" class="step slide" data-x="0" data-y="-1500" data-rotate-x="10" data-rotate-y="25">
+        <!-- <b style="font-size:30%;">two</b> -->
+        <q>For this app we designed our own custom-made audio player and incorporated
+        lot of media technologies</q>
+    </div>
+
+
+<!--
+    <div id="three" class="step slide" data-x="0" data-y="-1500" data-rotate-x="10" data-rotate-y="-40">
+        <b style="font-size:30%;">three</b>
+    </div>
+
+	<div id="four" class="step slide" data-x="1000" data-y="-1500" data-rotate-x="10" data-rotate-y="25">
+        <b style="font-size:30%;">four</b>
+    </div>
+
+    <div id="five" class="step slide" data-x="2000" data-y="-1500" data-rotate-x="10" data-rotate-y="-40">
+        <b style="font-size:30%;">five</b>
+    </div>
+-->
+
+<!--
+	<div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="100" data-scale="1">
+        <p>Because we need to address...<br/>
+            <b>Access</b><br/>
+            <b>Tracability / Transparency</b><br/>
+            <b>Faster bug fixes</b><br/>
+            <b>Better use of development in projects</b><br/>
+            <b>Public discussions around bugs, features etc.</b><br/></p>
+    </div>
+-->
+
+
+
+      <div id="bp1" class="step" data-x="100" data-y="-850" data-z="-2000" data-rotate-y="90">
+        <img src="img/tggd1.jpg" alt="singing" width="80%" />
+    </div>
+
+    <div id="bp2" class="step" data-x="1000" data-y="-500" data-z="-2000" data-rotate-y="90">
+        <img src="img/tggd2.jpg" alt="2" width="80%" />
+    </div>
+
+    <div id="bp3" class="step" data-x="1900" data-y="-150" data-z="-2000" data-rotate-y="90">
+        <img src="img/tggd3.jpg" alt="3" width="80%" />
+    </div>
+
+    <div id="bp4" class="step" data-x="2800" data-y="200" data-z="-2000" data-rotate-y="90">
+        <img src="img/tggd4.jpg" alt="3" width="80%" />
+    </div>
+
+    <div id="bp5" class="step" data-x="3700" data-y="550" data-z="-2000" data-rotate-y="90">
+        <img src="img/tggd5.jpg" alt="3" width="80%" />
+    </div>
+
+<!--
+    <div id="six" class="step slide" data-x="3000" data-y="-1500" data-rotate-x="10" data-rotate-y="-40">
+        <b style="font-size:30%;">six</b>
+    </div>
+-->
+
+
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress();</script>
+
+</body>
+</html>

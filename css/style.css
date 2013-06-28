@@ -619,9 +619,9 @@ section.services .threeCols a:hover { color:#ef4135; }
 /*--------------------------------*/
 /*  Content Selection Style  */
 /*--------------------------------*/
-::selection { background-color: #ef4135; color: #fff; }
-::-moz-selection { background-color: #ef4135; color: #fff; }
-::-webkit-selection { background-color: #ef4135; color: #fff; }
+::selection { background-color: #fff; color: #fff; }
+::-moz-selection { background-color: #fff; color: #fff; }
+::-webkit-selection { background-color: #fff; color: #fff; }
 
 
 
@@ -629,7 +629,7 @@ section.services .threeCols a:hover { color:#ef4135; }
 
 
 
-
+xw
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

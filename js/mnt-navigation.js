@@ -138,6 +138,47 @@ $(document).ready(function () {
 	$(".control").hide();
 	parallax.home.show();
 
+	$("#galleryItem1").click(function(){
+		//console.log("hello");
+
+		parallax.gi1.bottom();
+
+		var iframe = $("#sonicPaintingsGallery")[0];
+		setTimeout(function() {
+			iframe.contentWindow.focus();
+		},20);	
+		console.log("yes focus is there");
+
+	})
+
+	$("#galleryItem2").click(function(){
+		//console.log("hello");
+
+		parallax.gi1.bottom();
+
+	})
+
+	$("#galleryItem3").click(function(){
+		//console.log("hello");
+
+		parallax.gi1.bottom();
+
+	})
+
+	$("#galleryItem4").click(function(){
+		//console.log("hello");
+
+		parallax.gi1.bottom();
+
+	})
+
+	$("#galleryItem5").click(function(){
+		//console.log("hello");
+
+		parallax.gi1.bottom();
+
+	})
+
    $("#returnFromGallery").click(function(){
 		//clear away all the modifers
 		parallax.speed = 800;

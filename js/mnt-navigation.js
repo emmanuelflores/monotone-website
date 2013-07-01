@@ -36,10 +36,10 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.home.onload=function(){
-		setRight("blog", "blog");
-		setTop("is", "monoLab");
-		setLeft("about","about");
-		setBottom("gallery","projects");
+		setRight("blog", "Blog");
+		setTop("is", "Mono Lab");
+		setLeft("about","About");
+		setBottom("gallery","Projects");
 	};
 
 	parallax.is.onload=function(){

@@ -23,7 +23,8 @@ $(document).ready(function () {
 			.add($("#gallery"))
 			//gallery items, this needs to be optimized gi = gallery item
 			.add($("#gi1"))
-			.add($("#gi2"));
+			.add($("#gi2"))
+			.add($("#monotree"));
 
 	parallax.background = $("body");
 
@@ -161,26 +162,34 @@ $(document).ready(function () {
 		},20);
 	})
 
-	$("#galleryItem3").click(function(){
-		//console.log("hello");
-
-		parallax.gi1.bottom();
-
+	$("#labGalleryItem1").click(function() {
+		parallax.monotree.top();
+		var iframe = $("#monotree")[0];
+		setTimeout(function() {
+			iframe.contentWindow.focus();
+		},20);
 	})
 
-	$("#galleryItem4").click(function(){
-		//console.log("hello");
+	// $("#galleryItem3").click(function(){
+	// 	//console.log("hello");
 
-		parallax.gi1.bottom();
+	// 	parallax.gi1.bottom();
 
-	})
+	// })
 
-	$("#galleryItem5").click(function(){
-		//console.log("hello");
+	// $("#galleryItem4").click(function(){
+	// 	//console.log("hello");
 
-		parallax.gi1.bottom();
+	// 	parallax.gi1.bottom();
 
-	})
+	// })
+
+	// $("#galleryItem5").click(function(){
+	// 	//console.log("hello");
+
+	// 	parallax.gi1.bottom();
+
+	// })
 
    $(".returnFromGallery").click(function(){
 		//clear away all the modifers
@@ -190,6 +199,16 @@ $(document).ready(function () {
 		// parallax.boo.onload = function(){};
 		//Randomly picks a direction to head back too
 		parallax.gallery.top();
+	});
+
+    $(".returnFromLabGallery").click(function(){
+		//clear away all the modifers
+		parallax.speed = 800;
+		parallax.easing = 'swing';
+		parallax.scaling = 0.15;
+		// parallax.boo.onload = function(){};
+		//Randomly picks a direction to head back too
+		parallax.is.bottom();
 	});
 
 });

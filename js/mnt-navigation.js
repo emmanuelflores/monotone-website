@@ -23,7 +23,7 @@ $(document).ready(function () {
 			.add($("#gallery"))
 			//gallery items, this needs to be optimized gi = gallery item
 			.add($("#gi1"))
-			.add($("#g12"));
+			.add($("#gi2"));
 
 	parallax.background = $("body");
 
@@ -148,15 +148,17 @@ $(document).ready(function () {
 		setTimeout(function() {
 			iframe.contentWindow.focus();
 		},20);
-		console.log("yes focus is there");
-
 	})
 
 	$("#galleryItem2").click(function(){
 		//console.log("hello");
 
-		parallax.gi1.bottom();
+		parallax.gi2.bottom();
 
+		var iframe = $("#TGGDGallery")[0];
+		setTimeout(function() {
+			iframe.contentWindow.focus();
+		},20);
 	})
 
 	$("#galleryItem3").click(function(){
@@ -180,12 +182,12 @@ $(document).ready(function () {
 
 	})
 
-   $("#returnFromGallery").click(function(){
+   $(".returnFromGallery").click(function(){
 		//clear away all the modifers
 		parallax.speed = 800;
 		parallax.easing = 'swing';
 		parallax.scaling = 0.15;
-		parallax.boo.onload = function(){};
+		// parallax.boo.onload = function(){};
 		//Randomly picks a direction to head back too
 		parallax.gallery.top();
 	});

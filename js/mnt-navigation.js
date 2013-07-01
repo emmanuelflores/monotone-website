@@ -164,7 +164,7 @@ $(document).ready(function () {
 
 	$("#labGalleryItem1").click(function() {
 		parallax.monotree.top();
-		var iframe = $("#monotree")[0];
+		var iframe = $("#monotonetree")[0];
 		setTimeout(function() {
 			iframe.contentWindow.focus();
 		},20);

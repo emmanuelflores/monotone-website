@@ -22,7 +22,8 @@ $(document).ready(function () {
 			.add($("#about"))
 			.add($("#gallery"))
 			//gallery items, this needs to be optimized gi = gallery item
-			.add($("#gi1"));
+			.add($("#gi1"))
+			.add($("#g12"));
 
 	parallax.background = $("body");
 
@@ -36,7 +37,7 @@ $(document).ready(function () {
 	//Setting up page navigation
 	parallax.home.onload=function(){
 		setRight("blog", "blog");
-		setTop("is", "is it?");
+		setTop("is", "monoLab");
 		setLeft("about","about");
 		setBottom("gallery","projects");
 	};
@@ -51,7 +52,7 @@ $(document).ready(function () {
 	};
 
 	parallax.about.onload=function(){
-		setLeft("blog", "who are we");
+		setLeft("blog", "about");
 		setRight("home","monotone");
 	};
 
@@ -146,7 +147,7 @@ $(document).ready(function () {
 		var iframe = $("#sonicPaintingsGallery")[0];
 		setTimeout(function() {
 			iframe.contentWindow.focus();
-		},20);	
+		},20);
 		console.log("yes focus is there");
 
 	})

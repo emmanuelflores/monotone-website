@@ -182,10 +182,16 @@ $(document).ready(function () {
 	$("#labGalleryItem1").click(function() {
 		parallax.monotree.top();
 		var iframe = $("#monotonetree")[0];
-		iframe.src = "http://www.monotonestudio.nl/monotree";
+		
+		var body = $('body');
+		body.toggleClass("whitebackground");
+
 		setTimeout(function() {
+			iframe.src = "http://www.monotonestudio.nl/monotree";
 			iframe.contentWindow.focus();
-		},20);
+		},800);
+
+
 	})
 
 	$("#labGalleryItem2").click(function() {
@@ -234,7 +240,7 @@ $(document).ready(function () {
 		//Randomly picks a direction to head back too
 		parallax.is.bottom();
 		var body = $('body');
-		body.toggleClass("whitebackground")
+		body.toggleClass("whitebackground");
 	});
 
 	$(".returnFromTree").click(function(){
@@ -249,6 +255,8 @@ $(document).ready(function () {
 			iframe.src = null;
 		}, 800);
 		parallax.is.bottom();
+		var body = $('body');
+		body.toggleClass("whitebackground");
 	});
 
 });

@@ -105,10 +105,11 @@
 	</div>
 
 
-
+		<!-- THIS IS THE LABGALLERY -->
 
 	<div id="is" class="leaguegothic white page">
 		<!-- <a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">MonoLab</div></a> -->
+
 
 		<div class="f3" style="positioning:fixed; padding-top:55px;padding-left:90px;line-height:70px;">Mono Lab</div>
 		<h5 style="font-size:40px;line-height:47px;padding-left:90px;">This is the space for our experiments.</h5>
@@ -126,14 +127,13 @@
 
 				<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
 
-				<!-- <a id="galleryItem2" class="item">
-					<span class="thumb" style="background-image:url('assets/tggd-thumb.png');">
-						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
-						<div class="over" style=" " data-bg="assets/tggd-thumb.png"></div>
-					</span>
-				</a> -->
 
-				<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
+				<a id="labGalleryItem2" class="item">
+					<span class="thumb" style="background-image:url('assets/tree-thumb.png');">
+						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
+						<div class="over" style=" " data-bg="assets/tree-thumb.png"></div>
+					</span>
+				</a>
 
 			</section>
 
@@ -146,27 +146,24 @@
 	<!--THIS IS THE GALLERY, take care that the material will be scaled accordingly-->
 
 	<div id="gallery" class="leaguegothic white page">
-		<div id="titlebox" class="f1 lghtgrey">
-			<div class="f0 white">Here it is.</div>
-			A gallery.
-		</div>
+		<div class="f2 left white" style="positioning:fixed; padding-top:100px;padding-left:180px;line-height:70px;">past projects :</div>
 		<div id="contain">
 
 			<section id="workThumbs" class="cols" style="overflow: auto">
 
 				<a id="galleryItem1" class="item">
-					<span class="thumb" style="background-image:url('assets/sp-thumb.png');">
+					<span class="thumb" style="background-image:url('assets/SonicPaintThumb.png');">
 						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
-						<div class="over" style=" " data-bg="assets/sp-thumb.png"></div>
+						<div class="over" style=" " data-bg="assets/SonicPaintThumb.png"></div>
 					</span>
 				</a>
 
 				<div style="width: 0.5%; float:left; margin: 0.5%; background-color: red;"></div>
 
 				<a id="galleryItem2" class="item">
-					<span class="thumb" style="background-image:url('assets/tggd-thumb.png');">
+					<span class="thumb" style="background-image:url('assets/ThijsAppThumb400.png');">
 						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
-						<div class="over" style=" " data-bg="assets/tggd-thumb.png"></div>
+						<div class="over" style=" " data-bg="assets/ThijsAppThumb400.png"></div>
 					</span>
 				</a>
 
@@ -218,43 +215,42 @@
 
 	<!-- monotree -->
 	<div id="monotree" class="leaguegothic white page clickable">
-		<iframe id="monotonetree" src="http://www.monotonestudio.nl/monotree/index.php?t=72"></iframe>
+		<iframe id="monotonetree"></iframe>
+		<div class="left bottom absolute returnFromTree black" style="left:50px;bottom:50px;z-index:1;"><h1>return</h1></div>
+	</div>
+
+	<!-- Glass scenography -->
+	<div id="glass_scene" class="leaguegothic white page clickable">
+		<div class="center leaguegothic white page clickable" style="margin:100px; width:1200px; ">
+		<div class="f2 w500" style="margin:100px;color:black;">Creating volumetric glass projections with gesture mapping.</div>
+		<iframe class="center" style="padding-left:150px;" src="http://player.vimeo.com/video/21167756?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="400" height="225"></iframe>
+		<iframe class="center" src="http://player.vimeo.com/video/21117542?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="400" height="225"></iframe>
+
+		</div>
 		<div class="left bottom absolute returnFromLabGallery black" style="left:50px;bottom:50px;z-index:1;"><h1>return</h1></div>
 	</div>
+
 
 </div>
 
 <!-- REMOVE THESE ARROWS, THE ARE FAR TOO BIG -->
 <div id="leftControl" class="control">
-	<img id="leftArrow" class="arrow left" style="width:60px" src="assets/arrowleft2.png"></img>
-	<div id="leftText" class="dirText" style="float:right"> Test</div>
+	<img id="leftArrow" class="arrow left" src="assets/Arrows/Left-About.png"></img>
 </div>
-
-<!--
-<script>
-$("#leftControl").click(function(){
-	fade(this);
-});
-</script>
--->
 
 
 <div id="rightControl" class="control">
-	<img id="rightArrow" class="arrow right" style="width:60px" src="assets/arrowright2.png"></img>
-	<div id="rightText" class="dirText" style="float:left"> Test</div>
+	<img id="rightArrow" class="arrow right" src="assets/Arrows/Right-Blog.png"></img>
 </div>
 
 
-<div id="topControl" class="control center" style="width:145px;left:45%;">
-	<img id="topArrow" class="arrow left" style="height:60px" src="assets/arrowtop2.png"></img>
-	<div id="topText" class="dirText txtcenter" > Test</div>
+<div id="topControl" class="control center top" style="width:145px;left:45%;">
+	<img id="topArrow" class="arrow up" style="height:60px" src="assets/Arrows/Up-MonoLab.png"></img>
 </div>
 
 
 <div id="bottomControl" class="control center" style="width:145px;left:45%;bottom:0px;">
-	<div id="bottomText" class="dirText txtcenter"> Test</div>
-	<img id="bottomArrow" class="arrow left" style="height:60px" src="assets/arrowbottom2.png"></img>
-
+	<img id="bottomArrow" class="arrow bottom" style="height:60px" src="assets/Arrows/Down-Projects.png"></img>
 </div>
 
 
@@ -277,7 +273,6 @@ $("#leftControl").click(function(){
 	width:80px;
 }
 
-/* Style for image */
 #myImg
 {
 	-webkit-transition: opacity 0.5s ease-in;

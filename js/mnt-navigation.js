@@ -24,7 +24,8 @@ $(document).ready(function () {
 			//gallery items, this needs to be optimized gi = gallery item
 			.add($("#gi1"))
 			.add($("#gi2"))
-			.add($("#monotree"));
+			.add($("#monotree"))
+			.add($("#glass_scene"));
 
 	parallax.background = $("body");
 
@@ -37,6 +38,12 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.home.onload=function(){
+
+		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
+
 		setRight("blog", "Blog");
 		setTop("is", "Mono Lab");
 		setLeft("about","About");
@@ -44,20 +51,30 @@ $(document).ready(function () {
 	};
 
 	parallax.is.onload=function(){
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Monotone.png");
 		setBottom("home","monotone");
 	};
 
 	parallax.blog.onload=function(){
+		$("#leftArrow").attr("src","assets/Arrows/Left-Monotone.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-About.png");
+
+
 		setLeft("home", "monotone");
 		setRight("about", "about");
 	};
 
 	parallax.about.onload=function(){
+		$("#leftArrow").attr("src","assets/Arrows/Left-Blog.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Monotone.png")
+
 		setLeft("blog", "about");
 		setRight("home","monotone");
 	};
 
 	parallax.gallery.onload=function(){
+		$("#topArrow").attr("src","assets/Arrows/Up-Monotone.png");
+
 		setTop("home", "monotone");
 	};
 
@@ -165,9 +182,22 @@ $(document).ready(function () {
 	$("#labGalleryItem1").click(function() {
 		parallax.monotree.top();
 		var iframe = $("#monotonetree")[0];
+		
+		var body = $('body');
+		body.toggleClass("whitebackground");
+
 		setTimeout(function() {
+			iframe.src = "http://www.monotonestudio.nl/monotree";
 			iframe.contentWindow.focus();
-		},20);
+		},800);
+
+
+	})
+
+	$("#labGalleryItem2").click(function() {
+		parallax.glass_scene.top();
+		var myBody = $("body");
+		myBody.toggleClass("whitebackground");  
 	})
 
 	// $("#galleryItem3").click(function(){
@@ -209,6 +239,24 @@ $(document).ready(function () {
 		// parallax.boo.onload = function(){};
 		//Randomly picks a direction to head back too
 		parallax.is.bottom();
+		var body = $('body');
+		body.toggleClass("whitebackground");
+	});
+
+	$(".returnFromTree").click(function(){
+		//clear away all the modifers
+		parallax.speed = 800;
+		parallax.easing = 'swing';
+		parallax.scaling = 0.15;
+		// parallax.boo.onload = function(){};
+		//Randomly picks a direction to head back too
+		setTimeout(function() {
+			var iframe = $("#monotonetree")[0];
+			iframe.src = null;
+		}, 800);
+		parallax.is.bottom();
+		var body = $('body');
+		body.toggleClass("whitebackground");
 	});
 
 });

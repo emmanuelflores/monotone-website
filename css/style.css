@@ -209,14 +209,14 @@ section.clients { padding-bottom:20px; }
 #workThumbs { margin: 20px -100px 0 0; overflow: hidden; width: 1500px;}/*total width 1180px*/
 #workThumbs .starter{width: 1200px;}
 #workThumbs a.item { display: block; float:left; 
-  margin:0px 0 20px 0; text-decoration: none; width: 380px; }/*HERE THE GALLERY ITEMS 380*/
+  margin:0px 0 20px 0; text-decoration: none; width: 200px; }/*HERE THE GALLERY ITEMS 380*/
 .home #workThumbs a.item, .services #workThumbs a.item {margin:0 20px 20px 0;}
 .home #workThumbs a.end, .services #workThumbs a.end { margin-right: 0; }
 #workThumbs a.item .thumb { background: 0 0 no-repeat; display:block; position:relative;}
 /*HERE ARE THE HIGHLIGHTS*/
-#workThumbs a.item .thumb .over{background-position:-380px 0;height: 155px; 
-  width: 380px; position:absolute; top:0; left:0; z-index:0;}
-#workThumbs a.item .thumb img { display: block; height: 155px; width: 380px; 
+#workThumbs a.item .thumb .over{background-position:-200px 0;height: 155px; 
+  width: 200px; position:absolute; top:0; left:0; z-index:0;}
+#workThumbs a.item .thumb img { display: block; height: 155px; width: 200px; 
   position:relative;z-index:10;}
 #workThumbs a.item .title { background: #fff; color: #959595; display: 
   block; font-family: 'GeogrotesqueRegular', Arial, Helvetica, sans-serif; font-size: 16px; padding: 20px 25px; }

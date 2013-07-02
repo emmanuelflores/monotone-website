@@ -24,7 +24,8 @@ $(document).ready(function () {
 			//gallery items, this needs to be optimized gi = gallery item
 			.add($("#gi1"))
 			.add($("#gi2"))
-			.add($("#monotree"));
+			.add($("#monotree"))
+			.add($("#glass_scene"));
 
 	parallax.background = $("body");
 
@@ -165,9 +166,16 @@ $(document).ready(function () {
 	$("#labGalleryItem1").click(function() {
 		parallax.monotree.top();
 		var iframe = $("#monotonetree")[0];
+		iframe.src = "http://www.monotonestudio.nl/monotree";
 		setTimeout(function() {
 			iframe.contentWindow.focus();
 		},20);
+	})
+
+	$("#labGalleryItem2").click(function() {
+		parallax.glass_scene.top();
+		var myBody = $("body");
+		myBody.toggleClass("whitebackground");  
 	})
 
 	// $("#galleryItem3").click(function(){
@@ -208,6 +216,22 @@ $(document).ready(function () {
 		parallax.scaling = 0.15;
 		// parallax.boo.onload = function(){};
 		//Randomly picks a direction to head back too
+		parallax.is.bottom();
+		var body = $('body');
+		body.toggleClass("whitebackground")
+	});
+
+	$(".returnFromTree").click(function(){
+		//clear away all the modifers
+		parallax.speed = 800;
+		parallax.easing = 'swing';
+		parallax.scaling = 0.15;
+		// parallax.boo.onload = function(){};
+		//Randomly picks a direction to head back too
+		setTimeout(function() {
+			var iframe = $("#monotonetree")[0];
+			iframe.src = null;
+		}, 800);
 		parallax.is.bottom();
 	});
 

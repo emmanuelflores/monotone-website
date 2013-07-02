@@ -1,7 +1,7 @@
 /* ----- FONTS ----- */
-@font-face { font-family: 'Sertig';  src:url('fonts/Sertig.otf'); }
-@font-face { font-family: 'Raleway';       src:url('fonts/Raleway.otf'); }
-@font-face { font-family: 'Raleway Thin';       src:url('fonts/Raleway Thin.otf'); }
+@font-face { font-family: 'Sertig';  src:url('../fonts/Sertig.otf'); }
+@font-face { font-family: 'Raleway';       src:url('../fonts/Raleway.otf'); }
+@font-face { font-family: 'Raleway Thin';       src:url('../fonts/Raleway Thin.otf'); }
 
 /*
 html, body, div, span, applet, object, iframe,

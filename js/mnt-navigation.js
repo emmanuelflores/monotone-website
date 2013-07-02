@@ -38,6 +38,12 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.home.onload=function(){
+
+		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
+
 		setRight("blog", "Blog");
 		setTop("is", "Mono Lab");
 		setLeft("about","About");
@@ -45,20 +51,30 @@ $(document).ready(function () {
 	};
 
 	parallax.is.onload=function(){
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Monotone.png");
 		setBottom("home","monotone");
 	};
 
 	parallax.blog.onload=function(){
+		$("#leftArrow").attr("src","assets/Arrows/Left-Monotone.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-About.png");
+
+
 		setLeft("home", "monotone");
 		setRight("about", "about");
 	};
 
 	parallax.about.onload=function(){
+		$("#leftArrow").attr("src","assets/Arrows/Left-Blog.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Monotone.png")
+
 		setLeft("blog", "about");
 		setRight("home","monotone");
 	};
 
 	parallax.gallery.onload=function(){
+		$("#topArrow").attr("src","assets/Arrows/Up-Monotone.png");
+
 		setTop("home", "monotone");
 	};
 
